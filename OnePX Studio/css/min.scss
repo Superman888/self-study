@@ -1,0 +1,16 @@
+@media(-webkit-min-device-pixel-ratio:2),(min-device-pixel-ratio:2){
+.dox{
+	&:after{
+		transform:scaleY(.5);
+	}
+}
+
+}
+	
+@media(-webkit-min-device-pixel-ratio:3),(min-device-pixel-ratio:3){
+.dox{
+	&:after{
+		transform:scaleY(.3);
+	}
+}
+}
