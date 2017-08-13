@@ -1,0 +1,125 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+body{
+	background:$background-color;
+}
+.search{
+	width:100%;
+	background:#395ecd;
+	color:white;
+	overflow:hidden;
+	border-top:1px solid #2e4fbe;
+}
+.inp{
+	height:44px;
+	margin-top:23px;
+	border:1px solid white;
+	margin-right:$padding;
+	margin-left:$padding;
+	background:white;
+	border-radius:5px;
+	input{
+		height:35px;
+		border:0;
+		outline:none;
+	}
+	.icon-search{
+		font-size:25px;
+		color:gray;
+	}
+	b{
+		float:right;
+	}
+}
+p{
+	margin:0 auto 0 20px;
+	line-height:44px;
+}
+span{
+	margin-left:20px;
+	border-bottom:1px solid white;
+}
+.Advisory{
+	li{
+		float:left;
+		width:98px;
+		height:95px;
+		background:$white;
+		text-align:center;
+		border:1px solid $gray-lighter;
+		margin-top:20px;
+		margin-right:$padding;
+		margin-left:$padding;
+	 	margin-bottom:20px;
+		p{
+			margin:0;
+			margin-top:10px;
+			font-size:50px;
+			line-height:50px;
+		}
+	}
+}
+.icon--{
+	color:$brand;
+}
+.icon-xingshianjian{
+	color:#ef6189;
+}
+.icon-icon{
+	color:#3ad4cb;
+}
+.icon-hunyin{
+	color:$brand-orange;
+}
+.icon-iconlaodongjiufen{
+	color:#b8ed64;
+}
+.icon-2{
+	color:#ff6363;
+}
+.icon-gonggongjiaotonggongjushengushencan{
+	color:#d570f2;
+}
+.icon-xiaofeiquanyi{
+	color:#f5dc68;
+}
+.icon-linli{
+	color:#55e27d;
+}
+.icon-chaiqian2{
+	color:$brand-orange;
+}
+.icon-ic_account_balance_px{
+	color:$brand;
+}
+.icon-yiliao{
+	color:#ef6189;
+}
+.icon-v1-wuquanbaohu{
+	color:#b8ed64;
+}
+.icon-zhaiquan{
+	color:#3ad4cb;
+}
+.icon-gongsi1{
+	color:#f5dc68;
+}
+.icon-xinjingji{
+	color:#55e27d;
+}
+.icon-zhishichanquanbaohu{
+	color:#d570f2;
+}
+.icon-minzheng{
+	color:#ff6363;
+}
+.icon-xingzhengguanli{
+	color:$brand-orange;
+}
+.icon-susong{
+	color:#ef6189;
+}
+.icon-falv2{
+	color:$brand;
+}

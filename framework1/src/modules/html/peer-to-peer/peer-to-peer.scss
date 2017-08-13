@@ -1,0 +1,152 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+html,body{
+  background:#f7f7f7;
+}
+
+.put{
+  height:40px;
+  margin-top:23px;
+  border:1px solid white;
+  margin-right:$padding;
+  margin-left:$padding;
+  background:white;
+  border-radius:5px;
+  input{
+    height:35px;
+    border:0;
+    outline:none;
+    margin-left:10px;
+  }
+  .icon-search{
+    font-size:25px;
+    color:gray;
+    float:left;
+    line-height:40px;
+  }
+}
+.all{
+  width:20%;
+  text-align:center;
+  li{
+    margin-top:23px;
+    margin-left:12px;
+  }
+}
+.all li:hover{
+  color:$brand-orange;
+}
+.all li:nth-child(1):hover {
+  color:$brand-orange;
+  position: relative;
+  &:after{
+    display: block;
+    content:"";
+    position:absolute;
+    bottom:3px;
+    right:0;
+    width:0;
+    height:0;
+    border-width:7px;
+    border-color: transparent white transparent transparent;
+    border-style:solid dashed dashed dashed;
+  }
+}
+
+.more{
+  width:80%;
+  padding-top:10px;
+  background:white;
+  margin-top:12px;
+   .more-one{
+    width:100%;
+      li{
+      float:left;
+      margin-left:10px;
+    }
+  }
+}
+.more-one li:nth-child(1){
+  width:84px;
+  height:30px;
+  background:$brand-orange;
+  position:relative;
+  text-align:center;
+  line-height:30px;
+  color:white;
+  &:after{
+    display: block;
+    content:"";
+    position:absolute;
+    bottom:-14px;
+    right:45%;
+    width:0;
+    height:0;
+    border-width:7px;
+    border-color:$brand-orange transparent transparent transparent;
+    border-style:solid dashed dashed dashed;
+  }
+}
+.more-two{
+  background:white;
+  padding:0 $padding;
+  margin-top:7px;
+  margin-bottom:7px;
+  li{
+    border:1px solid #dddddd;
+    border-radius:5px;
+    img{
+      margin: 10px 0 0 10px;
+      width:60px;
+      height:60px;
+      border-radius:50%;
+    }
+    dl{
+      margin:0;
+      padding: 15px 0 10px 20px;
+      line-height:15px;
+      dt{
+        font-weight:700;
+        margin-bottom:5px;
+      }
+      dd{
+        margin:0;
+        padding:0;
+      }
+    }
+    .message{
+      margin-top:10px;
+      padding-left:$padding;
+      padding-bottom:10px;
+      p{
+        margin:0;
+        span{
+          border:1px solid $brand-orange;
+          margin-left:7px;
+          color:$brand-orange;
+          padding:2px 2px;
+        }
+      }
+    }
+    .click{
+      clear:both;
+      line-height:40px;
+      border-top:1px solid #ddd;
+      p{
+        margin:0;
+        padding:0 $padding;
+      }
+      .Some-he{
+        margin-top:5px;
+        margin-right:$padding;
+        border:1px solid $brand-orange;
+        line-height:30px;
+        border-radius:5px;
+        background:$brand-orange;
+        color:white;
+      }
+    }
+ }
+}
+
